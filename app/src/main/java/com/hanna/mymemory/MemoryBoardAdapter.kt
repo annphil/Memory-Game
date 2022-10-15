@@ -14,7 +14,7 @@ import androidx.core.view.ViewCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.hanna.mymemory.models.BoardSize
 import com.hanna.mymemory.models.MemoryCard
-import java.lang.Integer.min
+import kotlin.math.min
 
 class MemoryBoardAdapter(
         private val context: Context, // Object of MainActivity
@@ -37,7 +37,7 @@ class MemoryBoardAdapter(
         fun onCardClicked(position: Int)
     }
 
-    @RequiresApi(Build.VERSION_CODES.N) //min()
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         //How to create one view of recycler view
 

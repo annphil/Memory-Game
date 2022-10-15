@@ -5,5 +5,4 @@ data class MemoryCard(
         val identifier: Int, //Underlying resource integer ID
         var isFaceUp: Boolean = false,
         var isMatched: Boolean = false
-
 )
